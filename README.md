@@ -1,5 +1,11 @@
 # Databel Customer Churn Analysis
 
+## Project Objective
+
+The objective of this project is to identify the main factors contributing to customer churn at Databel and translate those findings into practical customer-retention strategies.
+
+**Business question:** Which customer demographics, service plans, usage patterns, and competitive factors are most strongly associated with churn, and how can Databel use these insights to improve retention?
+
 ## Executive Summary
 
 This project analyzes customer churn for Databel, a telecommunications company, to identify the primary factors influencing customer retention and cancellations.
@@ -10,14 +16,16 @@ The findings highlight several opportunities for Databel to reduce churn, improv
 
 ![Databel Churn Dashboard Overview](overview.png)
 
+*Figure 1: Databel's customer churn dashboard summarizing overall churn performance, demographic patterns, data usage, competitor-related factors, and customer-provided churn reasons.*
+
 ## Key Findings
 
 - **Overall churn rate:** 26.86% of customers have churned.
 - **Senior customer churn:** Senior customers have a significantly higher churn rate of **38.22%**.
 - **Competitive pressure:** A major driver of churn is competition, particularly competitors offering:
-  - Better pricing and service offers.
-  - More attractive devices and upgrade options.
-  - Stronger perceived value for customers.
+  - Better pricing and service offers.
+  - More attractive devices and upgrade options.
+  - Stronger perceived value for customers.
 - **Unlimited Data plan behavior:** Customers on Unlimited Data plans who demonstrate relatively low data usage have elevated churn. This suggests that some customers may not perceive enough value from their current plans.
 - **Customer segmentation:** Churn varies across age groups, service usage patterns, and plan types, emphasizing the need for targeted rather than one-size-fits-all retention campaigns.
 
@@ -26,19 +34,19 @@ The findings highlight several opportunities for Databel to reduce churn, improv
 The analysis used the following data modeling and analysis techniques:
 
 - **Excel PivotTables**
-  - Summarized churn by customer demographics, plans, usage, and churn reasons.
-  - Compared churn rates across customer segments.
-  - Identified patterns in customer behavior and service usage.
+  - Summarized churn by customer demographics, plans, usage, and churn reasons.
+  - Compared churn rates across customer segments.
+  - Identified patterns in customer behavior and service usage.
 
 - **Calculated Fields**
-  - Calculated overall and segment-level churn rates.
-  - Compared churned and retained customer populations.
-  - Derived performance metrics to support business insights.
+  - Calculated overall and segment-level churn rates.
+  - Compared churned and retained customer populations.
+  - Derived performance metrics to support business insights.
 
 - **Binned Age Groups**
-  - Grouped customers into meaningful age categories.
-  - Enabled comparison of churn behavior across different life-stage segments.
-  - Helped identify senior customers as a high-risk retention segment.
+  - Grouped customers into meaningful age categories.
+  - Enabled comparison of churn behavior across different life-stage segments.
+  - Helped identify senior customers as a high-risk retention segment.
 
 ## Strategic Business Recommendations
 
@@ -101,7 +109,8 @@ Retention strategies should be tailored to customer needs rather than applied un
 ```text
 databel-customer-churn-analysis/
 ├── 1_1_data_preparation.xlsx
-└── assets/
+├── overview.png
+└── README.md
 ```
 
 ## Conclusion
