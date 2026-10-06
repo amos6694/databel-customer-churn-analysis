@@ -8,6 +8,8 @@ Using Excel-based data preparation, PivotTables, calculated fields, and customer
 
 The findings highlight several opportunities for Databel to reduce churn, improve customer satisfaction, and strengthen its competitive position through targeted retention strategies.
 
+![Databel Churn Dashboard Overview](overview.png)
+
 ## Key Findings
 
 - **Overall churn rate:** 26.86% of customers have churned.
